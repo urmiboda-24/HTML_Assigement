@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerPage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/innerpage.css">
+    <link href="./css/cssbootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/cssbootstrap/css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script src="./js/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- side-bar -->
+            <div class="col col-2">
+                <div class="row">
+                    <div class="side-bar">
+                        <img class="menu" src="./images/menu-bar.svg" alt="">
+                        <img class="h-logo" src="./images/header-logo.svg" alt="">
+                        <img class="favicon" src="./images/favicon.ico" alt="">
+                    </div>
+                </div>
+                <div class="flex-container link">
+                    <li> <a class="sidebar-eliment nav-link dashboard" href="#">
+                            <img class="dashboard" src="./images/dashboard-active.svg" alt="" width="30"
+                                height="24"><small class="small">Dashboard</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./images/graph-default.svg" alt="" width="30" height="24"><small
+                                class="small">Analysis</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./images/inbox-default.svg" alt="" width="30" height="24"><small
+                                class="small">Inbox</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./images/clock-default.svg" alt="" width="30" height="24"><small
+                                class="small">History</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./images/user-default.svg" alt="" width="30" height="24"><small
+                                class="small">User</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./images/maintenance-default.svg" alt="" width="30" height="24"><small
+                                class="small">Maintenance</small>
+                        </a>
+                    </li>
+                    <li> <a class="sidebar-eliment nav-link" href="#">
+                            <img src="./images/setting-default.svg" alt="" width="30" height="24"><small
+                                class="small">Setting</small>
+                        </a>
+                    </li>
+
+                </div>
+            </div>
+            <!-- header & main content -->
+            <div class="col col-10">
+                <!-- header -->
+                <div class="flex-container">
+                    <nav class="navbar">
+                        <div class="leftside">
+                            <a class="search" href="#">
+                                <img src="./images/search-icon.svg" alt="" width="30" height="24"
+                                    class="d-inline-block align-text-top">search
+                            </a>
+                        </div>
+                        <div class="rightside">
+                            <div class="notification">
+                                <img class="notification" src="./images/notification-icon.svg" alt="">
+                            </div>
+                            <div class="user">
+                                <img class="profile" src="./images/profile.png" alt="">
+                                <p>John Deo</p>
+                                <img class="down" src="./images/downward-arrow.svg" alt="">
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- form -->
+                <div class="container-fluid" id="main-part">
+                    <div class="row">
+                        <div class="col-xl-12 fs-3 fw-bold">Analysis</div>
+                    </div>
+                    <form>
+                        <div class="container-fluid">
+                            <div class="form">
+                                <div class="row">
+                                    <div class="col-xl-12 columns_no">one column</div>
+                                    <div class="col-xl-12">
+                                        <input type="text" class="form-control p-3 m-2" placeholder="Name" />
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <select class="form-select form-control m-2"
+                                            aria-label="Default select example">
+                                            <option value="1">Droapdown</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <textarea class="form-control p-3 m-2" placeholder="Multiple line"
+                                            id="floatingTextarea2" style="height: 100px"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 columns_no">two column</div>
+                                    <div class="col-xl-6">
+                                        <input type="text" class="form-control p-3 m-2" placeholder="Name" />
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input type="text" class="form-control p-3 m-2" placeholder="UserName" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6"><input type="password" class="form-control p-3 m-2"
+                                            placeholder="Password" /></div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select form-control m-2"
+                                            aria-label="Default select example">
+                                            <option value="1">Droapdown</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 columns_no">three column</div>
+                                    <div class="col-xl-4">
+                                        <form class="form-floating">
+                                            <input type="text" class="form-control is-invalid p-3 m-2"
+                                                id="floatingInputInvalid">
+                                        </form>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <input type="password" class="form-control p-3 m-2" placeholder="Password" />
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <input type="password" class="form-control p-3 m-2" disabled
+                                            placeholder="disabled" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 columns_no">four column</div>
+                                    <div class="col-xl-3">
+                                        <form class="form-floating">
+                                            <input type="text" class="form-control is-invalid p-3 m-2 col_four_first"
+                                                id="floatingInputInvalid ">
+                                        </form>
+                                        <div class="validation_text_bottom">
+                                            Enter valid data
+                                        </div>
+                                        <!-- <input type="password" class="form-control p-3 m-2 form-floating"  placeholder="Password"  id="floatingInputInvalid "/> -->
+                                    </div>
+                                    <div class="col-xl-3">
+                                        <input type="text" class="form-control p-3 m-2" placeholder="Name" />
+                                        <div class="validation_text_bottom">
+                                            Enter your full name as par id
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3">
+                                        <input type="text" class="form-control p-3 m-2" placeholder="UserName" />
+                                    </div>
+                                    <div class="col-xl-3">
+                                        <select class="form-select form-control m-2"
+                                            aria-label="Default select example">
+                                            <option value="1">Droapdown</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 columns_no">Other design</div>
+                                    <div class="col-xl-12 other_design_title">File Upload</div>
+                                    <div class="col-xl-12 ">
+                                        <button class="btn btn-outline-danger button_redius">
+                                            <img src="./images/cloud-upload-icon.svg" width="30" /> Upload
+                                        </button> No items selected
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 other_design_title">Radio Button</div>
+                                    <div class="col-xl-1">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                option 1
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-1">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1" checked>
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                option 2
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 other_design_title">Check Box</div>
+                                    <div class="col-xl-1">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                option 1
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-1">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                option 2
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-12 other_design_title ">Snackbar</div>
+                                        <div class="row">
+                                            <div class="col-xl-6 ">
+                                                <div class="alert alert-light d-flex align-items-center p-2"
+                                                    id="snackbar_error" role="alert">
+                                                    <img src="./images/error-icon.svg" class="bi flex-shrink-0 me-2"
+                                                        width="24" height="24" alt=""> This is an error Message
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 ">
+                                                <div class="alert alert-light d-flex align-items-center p-2"
+                                                    id="snackbar_info" role="alert">
+                                                    <img src="./images/info-icon.svg" class="bi flex-shrink-0 me-2"
+                                                        width="24" height="24" alt=""> This is an information Message
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-6 ">
+                                                <div class="alert alert-light  d-flex align-items-center p-2"
+                                                    id="snackbar_warning" role="alert">
+                                                    <img src="./images/warning-icon.svg" class="bi flex-shrink-0 me-2"
+                                                        width="24" height="24" alt=""> This is a warning Message
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 ">
+                                                <div class="alert alert-light  d-flex align-items-center p-2"
+                                                    id="snackbar_success" role="alert">
+                                                    <img src="./images/success-icon.svg" class="bi flex-shrink-0 me-2"
+                                                        width="24" height="24" alt=""> This is a success Message
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-12 other_design_title ">Call action</div>
+                                            <div class="col-4">
+                                                    <button type="button" class="btn btn-danger btn-lg button_redius">Danger</button>
+                                                    <button type="button" class="btn btn-outline-danger offset-md-1 btn-lg button_redius ">Danger</button>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 other_design_title ">Tabs</div>
+                                    <div class="col-xl-12">
+                                        <ul class="nav nav-tabs design_tab" id="myTab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                              <button class="nav-link active " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                                            </li>
+                                          </ul>
+                                          <div class="tab-content" id="myTabContent">
+                                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est facere ullam cum, officia tempore assumenda dolorem pariatur adipisci. Odit, atque. Quo animi molestias similique praesentium quidem facere nisi repellat ipsum.</div>
+                                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptas tempora repellat dicta, quis ipsam quaerat sunt excepturi vero illo rerum natus, blanditiis quia debitis recusandae dolores! Eius officiis quis quisquam similique libero vel.</div>
+                                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, esse exercitationem, corporis rem quo reiciendis nisi facilis eius, officia qui eum ea quaerat atque porro.</div>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

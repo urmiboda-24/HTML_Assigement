@@ -1,0 +1,33 @@
+/* dashboard */
+
+#main_img{
+    border-radius: 50%;
+    border: 20px solid #FFFFFF;
+    margin-top: 72px;
+}
+body{
+    background-color: #FAFAFA;
+}
+span{
+    color: #C8242F;
+    font-weight: bold;
+}
+#login_pwd{
+    display: flex;
+    justify-content: space-between;
+}
+#reg{
+    color: #ADADAD;
+}
+#login_but{
+    border-radius: 20px;
+    background-color: #C8242F;
+    border-color: #FFFFFF;
+}
+.login_part{
+    margin-top: 106px;
+}
+#login_logo{
+    width: 60%;
+}
+
